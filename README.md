@@ -2,7 +2,9 @@
 
 ## Prerequisites:
 jdk8 installed
+
 Gradle installed (Download link: https://gradle.org/releases/) - 6.5.1 Version used in this project
+
 IntelliJ installed  (Download link: https://www.jetbrains.com/idea/download/#section=windows)
 
 
