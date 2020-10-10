@@ -20,7 +20,7 @@ public class ShoppingCartFlows extends BasePage {
         super(driver);
     }
     //**************************************************************************************************** FLOWS METHODS
-    public void NavigateToTheShoppingCart(String username, String password) throws IOException {
+    public void NavigateToTheShoppingCart(String username, String password) {
         try {
             LOGGER.debug("TEST FLOW STARTED: NAVIGATE TO THE SHOPPING CART");
             LOGGER.debug("6 STEPS TOTAL.");
@@ -49,7 +49,7 @@ public class ShoppingCartFlows extends BasePage {
     }
     //------------------------------------------------------------------------------------------------------------------
 
-    public void AddSingleItemToTheCart(String username, String password, String productName) throws IOException {
+    public void AddSingleItemToTheCart(String username, String password, String productName) {
         try {
             LOGGER.debug("TEST FLOW STARTED: ADD A SINGLE ITEM TO THE SHOPPING CART");
             LOGGER.debug("8 STEPS TOTAL.");
@@ -85,7 +85,7 @@ public class ShoppingCartFlows extends BasePage {
         }
     }
     //------------------------------------------------------------------------------------------------------------------
-    public void AddMultipleItemsToTheShoppingCart(String username, String password, String products ) throws IOException {
+    public void AddMultipleItemsToTheShoppingCart(String username, String password, String products) {
         try {
             LOGGER.debug("TEST FLOW STARTED: ADD ALL ITEMS TO THE SHOPPING CART");
             LOGGER.debug("6 STEPS TOTAL.");

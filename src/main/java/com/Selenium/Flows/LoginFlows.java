@@ -17,7 +17,7 @@ public class LoginFlows extends BasePage {
     }
     //**************************************************************************************************** FLOWS METHODS
 
-    public void loginWithValidUser(String username, String password) throws IOException, Exception {
+    public void loginWithValidUser(String username, String password) {
         try {
             LOGGER.debug("TEST FLOW STARTED: LOGIN WITH A VALID USER ");
             LOGGER.debug("4 STEPS TOTAL.");
@@ -26,7 +26,6 @@ public class LoginFlows extends BasePage {
             LOGGER.debug("STEP 2: Sending Password");
             sendTextAction(LoginSwaglabsPage.objs.PASSWORDFIELD.getVal(), password);
             LOGGER.debug("STEP 3: Clicking on Login Button");
-            Thread.sleep (6000);
             clickAction(LoginSwaglabsPage.objs.LOGINBUTTON.getVal());
             LOGGER.debug("STEP 4: Validating items on Products page");
             waitForVisibleTextElement(ProductsPage.objs.PRODUCTSTEXT.getVal(), 40);
@@ -44,7 +43,7 @@ public class LoginFlows extends BasePage {
         }
     }
     //------------------------------------------------------------------------------------------------------------------
-    public void loginWithAnInvalidUser(String username, String password) throws IOException, Exception {
+    public void loginWithAnInvalidUser(String username, String password) {
         try {
             LOGGER.debug("TEST FLOW STARTED: LOGIN WITH A INVALID USER ");
             LOGGER.debug("4 STEPS TOTAL.");

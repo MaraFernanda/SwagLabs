@@ -95,7 +95,7 @@ public class SwagLabsTests{
             throw e;
         }
     }
-    //------------------------------------------------------------------------------------------------------------------
+    //-----------------------------------------------------------------------------------------------------------------/*
     @Test(enabled = true, priority = 5)
     public void AddSingleItemToTheCartTest() throws Exception {
         try {
@@ -176,6 +176,7 @@ public class SwagLabsTests{
             throw e;
         }
     }
+
     //--------------------------------------------------------------------------------------------------- HELP FUNCTIONS
     public String data(String field) throws FileNotFoundException {
         Properties prop = new Properties();

@@ -4,7 +4,7 @@
 jdk8 installed
 Gradle installed (Download link: https://gradle.org/releases/) - 6.5.1 Version used in this project
 IntelliJ installed  (Download link: https://www.jetbrains.com/idea/download/#section=windows)
-
+Browsers: Chrome and Firefox (Versions used: 86.0.4240.75 for Chrome and 74.0 for Firefox).
 
 ## Configuration and Setup:
 1. Set the environment Variables (GRADLE and JAVA).

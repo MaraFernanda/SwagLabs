@@ -21,7 +21,7 @@ public class LogOutFlows extends BasePage {
     }
     //**************************************************************************************************** FLOWS METHODS
 
-    public void logOutFromProductsPage(String username, String password) throws IOException {
+    public void logOutFromProductsPage(String username, String password) {
         try {
             LOGGER.debug("TEST FLOW STARTED: LOGOUT FROM PRODUCTS PAGE");
             LOGGER.debug("7 STEPS TOTAL.");

@@ -14,7 +14,7 @@ public class OverviewFlows extends BasePage {
         super(driver);
     }
     //**************************************************************************************************** FLOWS METHODS
-    public void FinalOrderItems(String username, String password, String products, String firstName, String lastName, String code ) throws IOException {
+    public void FinalOrderItems(String username, String password, String products, String firstName, String lastName, String code) {
         try {
             LOGGER.debug("TEST FLOW STARTED: FINAL ORDER ITEMS");
             LOGGER.debug("12 STEPS TOTAL.");
@@ -66,7 +66,7 @@ public class OverviewFlows extends BasePage {
         }
     }
     //------------------------------------------------------------------------------------------------------------------
-    public void CompletePurchase(String username, String password, String products, String firstName, String lastName, String code ) throws IOException {
+    public void CompletePurchase(String username, String password, String products, String firstName, String lastName, String code) {
         try {
             LOGGER.debug("TEST FLOW STARTED: COMPLETE A PURCHASE");
             LOGGER.debug("14 STEPS TOTAL.");

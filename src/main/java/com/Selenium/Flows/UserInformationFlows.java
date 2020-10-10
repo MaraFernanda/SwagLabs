@@ -16,7 +16,7 @@ public class UserInformationFlows extends BasePage {
         super(driver);
     }
     //**************************************************************************************************** FLOWS METHODS
-    public void ContinueWithMissingUserInformation(String username, String password, String products ) throws IOException {
+    public void ContinueWithMissingUserInformation(String username, String password, String products) {
         try {
             LOGGER.debug("TEST FLOW STARTED: CONTINUE WITH MISSING USER INFORMATION");
             LOGGER.debug("9 STEPS TOTAL.");
@@ -56,7 +56,7 @@ public class UserInformationFlows extends BasePage {
         }
     }
     //------------------------------------------------------------------------------------------------------------------
-    public void FillUserInformation(String username, String password, String products, String firstName, String lastName, String code ) throws IOException {
+    public void FillUserInformation(String username, String password, String products, String firstName, String lastName, String code ) {
         try {
             LOGGER.debug("TEST FLOW STARTED: FILL USER INFORMATION");
             LOGGER.debug("12 STEPS TOTAL.");
